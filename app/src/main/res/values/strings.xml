@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">Image Converter</string>
+    <string name="btn_select">Выбрать файл</string>
+    <string name="btn_start_convert">Конвертировать</string>
 </resources>
