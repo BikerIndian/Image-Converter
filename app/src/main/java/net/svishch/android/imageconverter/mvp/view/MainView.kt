@@ -5,4 +5,8 @@ import moxy.viewstate.strategy.AddToEndSingleStrategy
 import moxy.viewstate.strategy.StateStrategyType
 
 @StateStrategyType(AddToEndSingleStrategy::class)
-interface MainView : MvpView
+interface MainView : MvpView{
+    fun imageSelect()
+    fun setImagePng(pathPng: String)
+    fun setError(message: String?)
+}
